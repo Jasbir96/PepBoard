@@ -6,7 +6,7 @@ uploadImg.addEventListener("click", function(e) {
   e.preventDefault();
   FileInput.click();
   FileInput.addEventListener("change", function(e) {
-    const writingPad = utility();
+    const writingPad = createBox();
 
     const img = document.createElement("img");
     let src = URL.createObjectURL(e.target.files[0]);
