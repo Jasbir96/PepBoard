@@ -6,7 +6,6 @@ board.height = window.innerHeight;
 board.width = window.innerWidth;
 // canvasRenderingContext2d=> tool
 const ctx = board.getContext("2d");
-
 ctx.strokeStyle = "blue";
 ctx.imageSmoothingEnabled = true;
 ctx.lineJoin = "round";

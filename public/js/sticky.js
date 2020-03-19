@@ -1,6 +1,6 @@
 const body = document.querySelector("body");
 function createSticky() {
-  const writingPad = utility();
+  const writingPad = createBox();
   const textarea = document.createElement("textarea");
   writingPad.appendChild(textarea);
 }
